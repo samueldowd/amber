@@ -1,0 +1,169 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '-g',
+1 verbose cli   'generator-polymer' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.32
+4 verbose cache add [ 'generator-polymer', null ]
+5 verbose cache add name=undefined spec="generator-polymer" args=["generator-polymer",null]
+6 verbose parsed url { protocol: null,
+6 verbose parsed url   slashes: null,
+6 verbose parsed url   auth: null,
+6 verbose parsed url   host: null,
+6 verbose parsed url   port: null,
+6 verbose parsed url   hostname: null,
+6 verbose parsed url   hash: null,
+6 verbose parsed url   search: null,
+6 verbose parsed url   query: null,
+6 verbose parsed url   pathname: 'generator-polymer',
+6 verbose parsed url   path: 'generator-polymer',
+6 verbose parsed url   href: 'generator-polymer' }
+7 silly lockFile a2821494-generator-polymer generator-polymer
+8 verbose lock generator-polymer /Users/sam_dowd/.npm/a2821494-generator-polymer.lock
+9 silly lockFile a2821494-generator-polymer generator-polymer
+10 silly lockFile a2821494-generator-polymer generator-polymer
+11 verbose addNamed [ 'generator-polymer', '' ]
+12 verbose addNamed [ null, '*' ]
+13 silly lockFile ecf1afb7-generator-polymer generator-polymer@
+14 verbose lock generator-polymer@ /Users/sam_dowd/.npm/ecf1afb7-generator-polymer.lock
+15 silly addNameRange { name: 'generator-polymer', range: '*', hasData: false }
+16 verbose request where is /generator-polymer
+17 verbose request registry https://registry.npmjs.org/
+18 verbose request id cfc52275f579d78c
+19 verbose url raw /generator-polymer
+20 verbose url resolving [ 'https://registry.npmjs.org/', './generator-polymer' ]
+21 verbose url resolved https://registry.npmjs.org/generator-polymer
+22 verbose request where is https://registry.npmjs.org/generator-polymer
+23 info trying registry request attempt 1 at 09:42:39
+24 http GET https://registry.npmjs.org/generator-polymer
+25 http 200 https://registry.npmjs.org/generator-polymer
+26 silly registry.get cb [ 200,
+26 silly registry.get   { date: 'Thu, 06 Nov 2014 14:42:39 GMT',
+26 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+26 silly registry.get     etag: '"4JEHVG2X1ESBO1Z2IHB6XJYEM"',
+26 silly registry.get     'content-type': 'application/json',
+26 silly registry.get     'cache-control': 'max-age=60',
+26 silly registry.get     'content-length': '28833',
+26 silly registry.get     'accept-ranges': 'bytes',
+26 silly registry.get     via: '1.1 varnish',
+26 silly registry.get     age: '0',
+26 silly registry.get     'x-served-by': 'cache-jfk1026-JFK',
+26 silly registry.get     'x-cache': 'MISS',
+26 silly registry.get     'x-cache-hits': '0',
+26 silly registry.get     'x-timer': 'S1415284959.298959,VS0,VE30',
+26 silly registry.get     vary: 'Accept',
+26 silly registry.get     'keep-alive': 'timeout=10, max=50',
+26 silly registry.get     connection: 'Keep-Alive' } ]
+27 silly addNameRange number 2 { name: 'generator-polymer', range: '*', hasData: true }
+28 silly addNameRange versions [ 'generator-polymer',
+28 silly addNameRange   [ '0.0.2',
+28 silly addNameRange     '0.0.3',
+28 silly addNameRange     '0.0.4',
+28 silly addNameRange     '0.0.5',
+28 silly addNameRange     '0.0.6',
+28 silly addNameRange     '0.0.7',
+28 silly addNameRange     '0.0.8',
+28 silly addNameRange     '0.0.9',
+28 silly addNameRange     '0.1.1',
+28 silly addNameRange     '0.2.2',
+28 silly addNameRange     '0.3.0',
+28 silly addNameRange     '0.3.1',
+28 silly addNameRange     '0.4.0-1',
+28 silly addNameRange     '0.4.0',
+28 silly addNameRange     '0.4.1',
+28 silly addNameRange     '0.5.0',
+28 silly addNameRange     '0.5.1' ] ]
+29 verbose addNamed [ 'generator-polymer', '0.5.1' ]
+30 verbose addNamed [ '0.5.1', '0.5.1' ]
+31 silly lockFile dc3271e4-generator-polymer-0-5-1 generator-polymer@0.5.1
+32 verbose lock generator-polymer@0.5.1 /Users/sam_dowd/.npm/dc3271e4-generator-polymer-0-5-1.lock
+33 silly lockFile 09e97f7f-ymer-generator-polymer-0-5-1-tgz https://registry.npmjs.org/generator-polymer/-/generator-polymer-0.5.1.tgz
+34 verbose lock https://registry.npmjs.org/generator-polymer/-/generator-polymer-0.5.1.tgz /Users/sam_dowd/.npm/09e97f7f-ymer-generator-polymer-0-5-1-tgz.lock
+35 verbose addRemoteTarball [ 'https://registry.npmjs.org/generator-polymer/-/generator-polymer-0.5.1.tgz',
+35 verbose addRemoteTarball   '22dad7b5f54f4d8813e0088b915ef4e432142410' ]
+36 info retry fetch attempt 1 at 09:42:39
+37 verbose fetch to= /var/folders/6w/h7dnkrws0yvfy0fj2yv7676m0000gr/T/npm-14249-s09VpmNL/registry.npmjs.org/generator-polymer/-/generator-polymer-0.5.1.tgz
+38 http GET https://registry.npmjs.org/generator-polymer/-/generator-polymer-0.5.1.tgz
+39 http 200 https://registry.npmjs.org/generator-polymer/-/generator-polymer-0.5.1.tgz
+40 silly lockFile 09e97f7f-ymer-generator-polymer-0-5-1-tgz https://registry.npmjs.org/generator-polymer/-/generator-polymer-0.5.1.tgz
+41 silly lockFile 09e97f7f-ymer-generator-polymer-0-5-1-tgz https://registry.npmjs.org/generator-polymer/-/generator-polymer-0.5.1.tgz
+42 silly lockFile dc3271e4-generator-polymer-0-5-1 generator-polymer@0.5.1
+43 silly lockFile dc3271e4-generator-polymer-0-5-1 generator-polymer@0.5.1
+44 silly lockFile ecf1afb7-generator-polymer generator-polymer@
+45 silly lockFile ecf1afb7-generator-polymer generator-polymer@
+46 silly resolved [ { name: 'generator-polymer',
+46 silly resolved     version: '0.5.1',
+46 silly resolved     description: 'Yeoman generator for Polymer',
+46 silly resolved     keywords: [ 'yeoman-generator', 'scaffold', 'framework', 'mvc', 'polymer' ],
+46 silly resolved     homepage: 'https://github.com/yeoman/generator-polymer',
+46 silly resolved     bugs: { url: 'https://github.com/yeoman/generator-polymer/issues' },
+46 silly resolved     author: { name: 'Chrome Developer Relations' },
+46 silly resolved     main: 'app/index.js',
+46 silly resolved     repository:
+46 silly resolved      { type: 'git',
+46 silly resolved        url: 'git://github.com/yeoman/generator-polymer.git' },
+46 silly resolved     scripts: { test: 'mocha --reporter spec' },
+46 silly resolved     dependencies:
+46 silly resolved      { chalk: '^0.5.1',
+46 silly resolved        lodash: '^2.4.1',
+46 silly resolved        ncp: '^0.6.0',
+46 silly resolved        rimraf: '^2.2.8',
+46 silly resolved        'underscore.string': '^2.3.3',
+46 silly resolved        'yeoman-generator': '^0.17.2',
+46 silly resolved        yosay: '^1.0.0' },
+46 silly resolved     peerDependencies: { 'generator-mocha': '>=0.1.3', yo: '>=1.0.0' },
+46 silly resolved     devDependencies: { mocha: '*' },
+46 silly resolved     engines: { node: '>=0.10.0', npm: '>=1.2.10' },
+46 silly resolved     licenses: [ [Object] ],
+46 silly resolved     gitHead: '9333f92cabd9e87b261d55792a89ff5f3dbc72e3',
+46 silly resolved     _id: 'generator-polymer@0.5.1',
+46 silly resolved     _shasum: '22dad7b5f54f4d8813e0088b915ef4e432142410',
+46 silly resolved     _from: 'generator-polymer@',
+46 silly resolved     _npmVersion: '1.4.14',
+46 silly resolved     _npmUser: { name: 'robdodson', email: 'lets.email.rob@gmail.com' },
+46 silly resolved     maintainers: [ [Object], [Object], [Object], [Object], [Object], [Object] ],
+46 silly resolved     dist:
+46 silly resolved      { shasum: '22dad7b5f54f4d8813e0088b915ef4e432142410',
+46 silly resolved        tarball: 'http://registry.npmjs.org/generator-polymer/-/generator-polymer-0.5.1.tgz' },
+46 silly resolved     directories: {},
+46 silly resolved     _resolved: 'https://registry.npmjs.org/generator-polymer/-/generator-polymer-0.5.1.tgz' } ]
+47 info install generator-polymer@0.5.1 into /usr/local/lib
+48 info installOne generator-polymer@0.5.1
+49 verbose lib/node_modules/generator-polymer unbuild
+50 verbose tar unpack /Users/sam_dowd/.npm/generator-polymer/0.5.1/package.tgz
+51 silly lockFile 16df154b-b-node-modules-generator-polymer tar:///usr/local/lib/node_modules/generator-polymer
+52 verbose lock tar:///usr/local/lib/node_modules/generator-polymer /Users/sam_dowd/.npm/16df154b-b-node-modules-generator-polymer.lock
+53 silly lockFile 4054292e-erator-polymer-0-5-1-package-tgz tar:///Users/sam_dowd/.npm/generator-polymer/0.5.1/package.tgz
+54 verbose lock tar:///Users/sam_dowd/.npm/generator-polymer/0.5.1/package.tgz /Users/sam_dowd/.npm/4054292e-erator-polymer-0-5-1-package-tgz.lock
+55 silly gunzTarPerm modes [ '755', '644' ]
+56 error Error: EACCES, mkdir '/usr/local/lib/node_modules/generator-polymer'
+56 error  { [Error: EACCES, mkdir '/usr/local/lib/node_modules/generator-polymer']
+56 error   errno: 3,
+56 error   code: 'EACCES',
+56 error   path: '/usr/local/lib/node_modules/generator-polymer',
+56 error   fstream_type: 'Directory',
+56 error   fstream_path: '/usr/local/lib/node_modules/generator-polymer',
+56 error   fstream_class: 'DirWriter',
+56 error   fstream_stack:
+56 error    [ '/usr/local/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23',
+56 error      '/usr/local/lib/node_modules/npm/node_modules/mkdirp/index.js:46:53',
+56 error      'Object.oncomplete (fs.js:107:15)' ] }
+57 error Please try running this command again as root/Administrator.
+58 error System Darwin 14.0.0
+59 error command "node" "/usr/local/bin/npm" "install" "-g" "generator-polymer"
+60 error cwd /Users/sam_dowd/Documents/GitHub/amber
+61 error node -v v0.10.32
+62 error npm -v 1.4.28
+63 error path /usr/local/lib/node_modules/generator-polymer
+64 error fstream_path /usr/local/lib/node_modules/generator-polymer
+65 error fstream_type Directory
+66 error fstream_class DirWriter
+67 error code EACCES
+68 error errno 3
+69 error stack Error: EACCES, mkdir '/usr/local/lib/node_modules/generator-polymer'
+70 error fstream_stack /usr/local/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23
+70 error fstream_stack /usr/local/lib/node_modules/npm/node_modules/mkdirp/index.js:46:53
+70 error fstream_stack Object.oncomplete (fs.js:107:15)
+71 verbose exit [ 3, true ]
